@@ -27,8 +27,8 @@ description: Master Terraform State Commands
 ```t
 # Terraform State Storage to Azure Storage Container
   backend "azurerm" {
-    resource_group_name   = "terraform-storage-rg"
-    storage_account_name  = "terraformstate201"
+    resource_group_name   = "amit-rg"
+    storage_account_name  = "tfamitstate05"
     container_name        = "tfstatefiles"
     key                   = "state-commands-demo1.tfstate"
   }  
